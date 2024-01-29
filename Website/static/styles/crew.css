@@ -66,6 +66,9 @@ body {
 .crew .crew__description .crew__description--dot circle:hover {
   opacity: 1;
 }
+.crew .crew__description .crew__description--dot .circle--clicked {
+  opacity: 1;
+}
 .crew .crew__image {
   max-height: 33.9rem;
 }

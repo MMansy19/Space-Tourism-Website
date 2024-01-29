@@ -1,0 +1,24 @@
+{
+  "name": "space-tourism-multi-page-website",
+  "version": "1.0.0",
+  "description": "![Design preview for the Space tourism website coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMansy19/Space-tourism-multi-page-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMansy19/Space-tourism-multi-page-website/issues"
+  },
+  "homepage": "https://github.com/MMansy19/Space-tourism-multi-page-website#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
