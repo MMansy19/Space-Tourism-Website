@@ -1,0 +1,44 @@
+:root {
+  --color-white: #ffffff;
+
+  /* fonts */
+}
+body {
+  background-image: url("../assets/home/background-home-desktop.svg"),
+    lightgray 0px 0px / 100% 100% no-repeat;
+  width: 130.315rem;
+  height: 59.625rem;
+  /* transform: rotate(-90deg); */
+
+  mix-blend-mode: screen;
+  color: var(--color-white);
+  font-family: "Barlow Condensed", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0 0 4rem;
+  font-size: 1rem;
+
+  .horizontal_line {
+    opacity: 0.2515;
+    height: 0.1rem;
+    border-left: 29.5625rem solid var(--color-white);
+    margin-right: -20rem;
+    z-index: 1;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.44rem 10.31rem 2.37rem 7.59rem;
+    background: rgba(255, 255, 255, 0.04);
+    gap: 3rem;
+    backdrop-filter: blur(40.774227142333984px);
+    .nav__item--number {
+      font-weight: 700;
+      margin-right: 0.5rem;
+    }
+  }
+}
