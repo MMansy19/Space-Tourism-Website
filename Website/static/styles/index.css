@@ -4,13 +4,16 @@
   /* fonts */
 }
 body {
-  background-image: url("../assets/home/background-home-desktop.svg"),
-    lightgray 0px 0px / 100% 100% no-repeat;
-  width: 130.315rem;
-  height: 59.625rem;
-  /* transform: rotate(-90deg); */
+  background: url("../assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center 0;
+  background-size: cover;
+  /* overflow: hidden; */
 
-  mix-blend-mode: screen;
+  /* background-size: cover, 100% 100%; */
+}
+.container {
   color: var(--color-white);
   font-family: "Barlow Condensed", sans-serif;
 }
@@ -34,8 +37,10 @@ body {
     align-items: center;
     padding: 2.44rem 10.31rem 2.37rem 7.59rem;
     background: rgba(255, 255, 255, 0.04);
-    gap: 3rem;
     backdrop-filter: blur(40.774227142333984px);
+    width: 51.875rem;
+    flex-shrink: 0;
+    gap: 3rem;
     .nav__item--number {
       font-weight: 700;
       margin-right: 0.5rem;
