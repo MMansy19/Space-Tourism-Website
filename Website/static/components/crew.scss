@@ -14,9 +14,9 @@ body {
   padding: 2.5rem 2rem 0 2rem;
   margin: 0 auto;
   font-size: 16px;
-  // margin: 3;
-  // gap: 0;
-  // padding-bottom: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .crew {
   margin: 3.8rem 8.56rem 0 10.5rem;
@@ -24,6 +24,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   font-weight: 400;
+
   .crew__description {
     text-transform: uppercase;
     .crew__description--header {
@@ -64,7 +65,7 @@ body {
         opacity: 0.174363;
       }
       circle:hover {
-        opacity: 1;
+        opacity: 0.5;
       }
       .circle--clicked {
         opacity: 1;

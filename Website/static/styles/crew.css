@@ -14,6 +14,9 @@ body {
   padding: 2.5rem 2rem 0 2rem;
   margin: 0 auto;
   font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .crew {
@@ -64,7 +67,7 @@ body {
   opacity: 0.174363;
 }
 .crew .crew__description .crew__description--dot circle:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 .crew .crew__description .crew__description--dot .circle--clicked {
   opacity: 1;
