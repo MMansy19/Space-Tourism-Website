@@ -27,8 +27,8 @@ const changeCrew = (index) => {
   } else if (index === 3) {
     name.innerText = 'Mahmoud Mansy';
     job.innerText = 'Full Stack Developer';
-    details.innerText = 'Experienced Full Stack Developer in ReactJS, JavaScript, and Biomedical Engineering. Junior software engineer proficient in Python, Flask, PostgreSQL. Results-driven, strategic thinker, ready to contribute innovatively to projects.';
-    image.src = '../static/assets/crew/mypic.png';
+    details.innerText = 'Experienced Full Stack Developer in ReactJS, JavaScript. Junior software engineer proficient in Python, Flask, PostgreSQL. Results-driven, strategic thinker, ready to contribute innovatively to projects.';
+    image.src = '../static/assets/crew/mansy2-removebg.png';
   } else if (index === 4) {
     name.innerText = 'Anousheh Ansari';
     job.innerText = 'Flight Engineer';
