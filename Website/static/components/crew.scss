@@ -1,0 +1,70 @@
+// START CREW
+body {
+  background: url("../assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: var(--color-black);
+  background-position: center 0;
+  color: var(--color-white);
+  font-family: var(--family-Barlow-Condensed);
+}
+.container {
+  margin: 0;
+  gap: 0;
+  padding-bottom: 0;
+}
+.crew {
+  margin: 3.8rem 8.56rem 0 10.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400;
+  .crew__description {
+    text-transform: uppercase;
+    .crew__description--header {
+      margin-bottom: 8rem;
+      font-size: 1.75rem;
+      letter-spacing: var(--letter-spacing);
+      .crew__description--header--number {
+        opacity: 25%;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+    .crew__description--job {
+      font-weight: 400;
+      opacity: 50%;
+      font-family: var(--family-Cormorant);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .crew__description--name {
+      margin-bottom: 1.7rem;
+      font-family: var(--family-Cormorant);
+      font-size: 3.5rem;
+      font-weight: 400;
+    }
+    .crew__description--details {
+      text-transform: none;
+      color: var(--color-body);
+      font-size: 1.125rem;
+      max-width: 21.5rem;
+    }
+    .crew__description--dot {
+      margin-top: 4rem;
+      display: flex;
+
+      circle {
+        fill: var(--color-white);
+        opacity: 0.174363;
+      }
+      circle:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .crew__image {
+    max-height: 33.9rem;
+  }
+}
+// END CREW

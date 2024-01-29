@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="..\static\assets\shared\logo.svg"
+    />
+    <link rel="stylesheet" href="..\static\styles\crew.css" />
+    <title>CREW</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="..\static\assets\shared\logo.svg" />
+        <div class="horizontal_line"></div>
+        <nav class="nav">
+          <a href="home.html" class="nav__link nav__home">
+            <div class="nav__item">
+              <span class="nav__item--number"> 00 </span>
+              Home
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="destination.html" class="nav__link nav__destination">
+            <div class="nav__item">
+              <span class="nav__item--number">01</span> Destination
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="#" class="nav__link nav__crew">
+            <div class="nav__item">
+              <span class="nav__item--number">02</span> Crew
+              <div
+                class="nav__item--horizontal_line nav__item--horizontal_line--clicked"
+              ></div>
+            </div>
+          </a>
+          <a href="technology.html" class="nav__link nav__technology">
+            <div class="nav__item">
+              <span class="nav__item--number">03</span> Technology
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+        </nav>
+      </header>
+
+      <section class="crew">
+        <div class="crew__description">
+          <div class="crew__description--header">
+            <span class="crew__description--header--number">02 </span>
+            Meet your crew
+          </div>
+          <h3 class="crew__description--job">Commander</h3>
+          <h2 class="crew__description--name">Douglas Hurley</h2>
+          <p class="crew__description--details">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps
+            pilot and former NASA astronaut. He launched into space for the
+            third time as commander of Crew Dragon Demo-2.
+          </p>
+          <div class="crew__description--dot">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="132"
+              height="15"
+              viewBox="0 0 132 15"
+              fill="none"
+            >
+              <circle cx="7.5" cy="7.5" r="7.5" />
+              <circle cx="46.5" cy="7.5" r="7.5" />
+              <circle cx="85.5" cy="7.5" r="7.5" />
+              <circle cx="124.5" cy="7.5" r="7.5" />
+            </svg>
+          </div>
+        </div>
+        <img
+          class="crew__image"
+          src="..\static\assets\crew\image-douglas-hurley-2.png"
+        />
+      </section>
+    </div>
+    <script src="..\static\scripts\index.js"></script>
+  </body>
+</html>

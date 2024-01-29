@@ -1,0 +1,71 @@
+body {
+  background: url("../assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: var(--color-black);
+  background-position: center 0;
+  color: var(--color-white);
+  font-family: var(--family-Barlow-Condensed);
+}
+
+/* End CSS Reset */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/*START BODY*/
+.description {
+  margin: 7rem 10rem 0 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.description .description__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: var(--color-body);
+  max-width: 32rem;
+  padding: 3rem 3rem 2rem 3rem;
+}
+.description .description__left--uppercase {
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  letter-spacing: var(--letter-spacing);
+  font-family: var(--family-Barlow-Condensed);
+}
+.description .description__left--title {
+  font-family: var(--family-Cormorant);
+  color: var(--color-white);
+  font-size: 9.3rem;
+}
+.description .description__left--details {
+  font-family: var(--family-Barlow);
+  line-height: 2rem;
+}
+.description .description__explore {
+  font-size: 2rem;
+  font-family: var(--family-Cormorant);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+  border-radius: 17.125rem;
+  padding: 7.375rem 3.8rem;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+.description .description__explore--main {
+  margin-left: 24rem;
+}
+.description .description__explore--main:hover {
+  border-radius: 17.125rem;
+  padding: 5rem;
+  margin-left: 19rem;
+  background: rgba(255, 255, 255, 0.2);
+  /* backdrop-filter: blur(10px); */
+  transition: 1s;
+}
+
+/*END BODY*//*# sourceMappingURL=home.css.map */
