@@ -7,10 +7,13 @@ body {
   font-family: var(--family-Barlow-Condensed);
 }
 
-.container {
-  margin: 0;
-  gap: 0;
-  padding-bottom: 0;
+.container-crew {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  padding: 2.5rem 2rem 0 2rem;
+  margin: 0 auto;
+  font-size: 16px;
 }
 
 .crew {
@@ -101,31 +104,12 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  background: url("../assets/home/background-home-desktop.jpg");
-  background-repeat: no-repeat;
-  background-color: var(--color-black);
-  background-position: center 0;
-  color: var(--color-white);
-  font-family: var(--family-Barlow-Condensed);
-}
-
-/* End CSS Reset */
-.container {
-  display: flex;
-  flex-direction: column;
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
-  font-size: 16px;
-}
-
 /*START HEADER*/
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 3rem;
+  margin: 0 3rem;
   font-size: 1rem;
   text-transform: uppercase;
 }

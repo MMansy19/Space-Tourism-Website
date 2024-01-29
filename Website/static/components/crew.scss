@@ -7,10 +7,16 @@ body {
   color: var(--color-white);
   font-family: var(--family-Barlow-Condensed);
 }
-.container {
-  margin: 0;
-  gap: 0;
-  padding-bottom: 0;
+.container-crew {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  padding: 2.5rem 2rem 0 2rem;
+  margin: 0 auto;
+  font-size: 16px;
+  // margin: 3;
+  // gap: 0;
+  // padding-bottom: 0;
 }
 .crew {
   margin: 3.8rem 8.56rem 0 10.5rem;
