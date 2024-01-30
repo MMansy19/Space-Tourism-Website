@@ -32,11 +32,13 @@ body {
   position: absolute;
   letter-spacing: var(--letter-spacing);
 }
+
 .technology .technology__header .technology__header--number {
   opacity: 25%;
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .technology__description {
   display: flex;
   flex-direction: row;
@@ -45,26 +47,26 @@ body {
   margin-top: 3rem;
   column-gap: 5rem;
 }
+
 .technology__description--numbers {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-
   font-family: var(--family-Barlow-Condensed);
-  .number:hover {
-    border: 1px solid var(--color-white);
-  }
-  .number {
-    padding: 1.8rem 2rem;
-    border: 1px solid var(--color-horizontal-line);
-    border-radius: 50%;
-    color: var(--color-white);
-    font-size: 2rem;
-  }
-  .number-clicked {
-    background: var(--color-white);
-    color: var(--color-black);
-  }
+}
+.technology__description--numbers .number:hover {
+  border: 1px solid var(--color-white);
+}
+.technology__description--numbers .number {
+  padding: 1.8rem 2rem;
+  border: 1px solid var(--color-horizontal-line);
+  border-radius: 50%;
+  color: var(--color-white);
+  font-size: 2rem;
+}
+.technology__description--numbers .number-clicked {
+  background: var(--color-white);
+  color: var(--color-black);
 }
 
 .description__body--heading {
@@ -76,6 +78,7 @@ body {
   font-size: 1rem;
   margin-bottom: 0.7rem;
 }
+
 .description__body--name {
   margin-bottom: 1rem;
   font-family: var(--family-Cormorant);
@@ -83,6 +86,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
 }
+
 .description__body--details {
   text-transform: none;
   color: var(--color-body);
@@ -91,7 +95,8 @@ body {
   line-height: 2rem;
   letter-spacing: 0.1rem;
 }
+
 .technology__image {
   max-height: 30rem;
   margin-left: 5rem;
-}
+}/*# sourceMappingURL=technology.css.map */

@@ -1,0 +1,34 @@
+:root {
+  --color-white: white;
+  --color-gray: gray;
+  --color-black: black;
+  --color-body: #d0d6f9;
+  --color-horizontal-line: #383b4b;
+  /* fonts */
+  --letter-spacing: 0.3rem;
+  /* families */
+  --family-Barlow: "Barlow", sans-serif;
+  --family-Barlow-Condensed: "Barlow Condensed", sans-serif;
+  --family-Cormorant: "Cormorant Garamond", serif;
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  -webkit-text-size-adjust: 100%;
+}/*# sourceMappingURL=global.css.map */
