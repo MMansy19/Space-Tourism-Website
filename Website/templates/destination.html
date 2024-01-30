@@ -1,37 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="..\static\assets\shared\logo.svg"
+    />
+    <link rel="stylesheet" href="..\static\styles\crew.css" />
+    <link rel="stylesheet" href="..\static\styles\destination.css" />
+    <title>CREW</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+  <body>
+    <div class=" container-destination">
+      <header class="header">
+        <img src="..\static\assets\shared\logo.svg" />
+        <div class="horizontal_line"></div>
+        <nav class="nav">
+          <a href="home.html" class="nav__link nav__home">
+            <div class="nav__item">
+              <span class="nav__item--number"> 00 </span>
+              Home
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="#" class="nav__link nav__destination">
+            <div class="nav__item">
+              <span class="nav__item--number">01</span> Destination
+              <div
+                class="nav__item--horizontal_line nav__item--horizontal_line--clicked"
+              ></div>
+            </div>
+          </a>
+          <a href="crew.html" class="nav__link nav__crew">
+            <div class="nav__item">
+              <span class="nav__item--number">02</span> Crew
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="technology.html" class="nav__link nav__technology">
+            <div class="nav__item">
+              <span class="nav__item--number">03</span> Technology
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+        </nav>
+      </header>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+      <section class="destination">
+          <div class=" destination__header">
+            <span class=" destination__header--number">01</span>
+            Pick your destination
+          </div>
+        
+          
+    <div class=" destination__body ">
+          <img
+            class="destination__image"
+            src="..\static\assets\destination\image-moon.png"
+          />
+        <div class=" destination__description">
+          <div class=" destination__description--header">
+            <nav class="nav">
+              <a href="#" class="nav__link nav__home">
+                <div class="nav__item">
+                  <span class="nav__item--number"> MOON </span>
 
-  01 Pick your destination
+                  <div class="nav__item--horizontal_line nav__item--horizontal_line--clicked"></div>
+                </div>
+              </a>
+              <a href="#" class="nav__link nav__destination">
+                <div class="nav__item">
+                  <span class="nav__item--number">MARS</span>
+                  <div
+                    class="nav__item--horizontal_line "
+                  ></div>
+                </div>
+              </a>
+              <a href="#" class="nav__link nav__crew">
+                <div class="nav__item">
+                  <span class="nav__item--number">EUROPA</span>
+                  <div class="nav__item--horizontal_line"></div>
+                </div>
+              </a>
+              <a href="#" class="nav__link nav__technology">
+                <div class="nav__item">
+                  <span class="nav__item--number">TITAN</span>
+                  <div class="nav__item--horizontal_line"></div>
+                </div>
+              </a>
+            </nav>
+          </div>
 
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
-</body>
+          <h2 class="crew__description--name destination__description--name">MOON</h2>
+          <p class="crew__description--details destination__description--details">
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites.
+          </p>
+          <div class="horizontal_line"></div>
+          <div class="travele">
+            <div class="travele__distance">AVG. DISTANCE
+              <span class="travele__distance--number">384,400 km</span>
+              
+            </div>
+          </div>
+             <div class="travele__time">Est. travel time
+              <span class="travele__time--number">3 days</span>
+             </div>
+        </div>
+      </div>
+    </div>
+      </section>
+    </div>
+    <script src="..\static\scripts\index.js"></script>
+    <script src="..\static\scripts\destination.js"></script>
+  </body>
 </html>
