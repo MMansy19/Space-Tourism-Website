@@ -21,23 +21,21 @@
       sizes="32x32"
       href="..\static\assets\shared\logo.svg"
     />
-    <link rel="stylesheet" href="..\static\styles\home.css" />
-    <title>Space tourism website</title>
+    <link rel="stylesheet" href="..\static\styles\crew.css" />
+    <title>CREW</title>
   </head>
 
   <body>
-    <div class="container-home">
+    <div class="container-crew">
       <header class="header">
         <img src="..\static\assets\shared\logo.svg" />
         <div class="horizontal_line"></div>
         <nav class="nav">
-          <a href="#" class="nav__link nav__home">
+          <a href="..\home.html" class="nav__link nav__home">
             <div class="nav__item">
               <span class="nav__item--number"> 00 </span>
               Home
-              <div
-                class="nav__item--horizontal_line nav__item--horizontal_line--clicked"
-              ></div>
+              <div class="nav__item--horizontal_line"></div>
             </div>
           </a>
           <a href="destination.html" class="nav__link nav__destination">
@@ -46,10 +44,12 @@
               <div class="nav__item--horizontal_line"></div>
             </div>
           </a>
-          <a href="crew.html" class="nav__link nav__crew">
+          <a href="#" class="nav__link nav__crew">
             <div class="nav__item">
               <span class="nav__item--number">02</span> Crew
-              <div class="nav__item--horizontal_line"></div>
+              <div
+                class="nav__item--horizontal_line nav__item--horizontal_line--clicked"
+              ></div>
             </div>
           </a>
           <a href="technology.html" class="nav__link nav__technology">
@@ -61,27 +61,47 @@
         </nav>
       </header>
 
-      <section class="description">
-        <div class="description__left">
-          <span class="description__left--uppercase"
-            >So, you want to travel to
-            <h1 class="description__left--title">Space</h1></span
-          >
-          <p class="description__left--details">
-            Let’s face it; if you want to go to space, you might as well
-            genuinely go to outer space and not hover kind of on the edge of it.
-            Well sit back, and relax because we’ll give you a truly out of this
-            world experience!
+      <section class="crew">
+        <div class="crew__description">
+          <div class="crew__description--header">
+            <span class="crew__description--header--number">02 </span>
+            Meet your crew
+          </div>
+          <h3 class="crew__description--job">Commander</h3>
+          <h2 class="crew__description--name">Douglas Hurley</h2>
+          <p class="crew__description--details">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps
+            pilot and former NASA astronaut. He launched into space for the
+            third time as commander of Crew Dragon Demo-2.
           </p>
+          <div class="crew__description--dot">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="180"
+              height="15"
+              viewBox="0 0 165 15"
+              fill="none"
+            >
+              <circle
+                class="circle circle--0 circle--clicked"
+                cx="7.5"
+                cy="7.5"
+                r="7.5"
+              />
+              <circle class="circle circle--1" cx="46.5" cy="7.5" r="7.5" />
+              <circle class="circle circle--2" cx="85.5" cy="7.5" r="7.5" />
+              <circle class="circle circle--3" cx="124.5" cy="7.5" r="7.5" />
+              <circle class="circle circle--4" cx="163.5" cy="7.5" r="7.5" />
+            </svg>
+          </div>
         </div>
-
-        <div class="description__explore--main">
-          <h2 class="description__explore">
-            <a href="destination.html" class="explore"> Explore </a>
-          </h2>
-        </div>
+        <img
+          class="crew__image"
+          src="..\static\assets\crew\image-douglas-hurley-2.png"
+        />
       </section>
     </div>
     <script src="..\static\scripts\header.js"></script>
+    <script src="..\static\scripts\crew.js"></script>
   </body>
 </html>

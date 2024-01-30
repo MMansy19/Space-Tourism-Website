@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="..\static\assets\shared\logo.svg"
+    />
+    <link rel="stylesheet" href="..\static\styles\technology.css" />
+    <title>Technology</title>
+  </head>
+
+  <body>
+    <div class="container-technology">
+      <header class="header">
+        <img src="..\static\assets\shared\logo.svg" />
+        <div class="horizontal_line"></div>
+        <nav class="nav">
+          <a href="..\home.html" class="nav__link nav__home">
+            <div class="nav__item">
+              <span class="nav__item--number"> 00 </span>
+              Home
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="destination.html" class="nav__link nav__destination">
+            <div class="nav__item">
+              <span class="nav__item--number">01</span> Destination
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="crew.html" class="nav__link nav__crew">
+            <div class="nav__item">
+              <span class="nav__item--number">02</span> Crew
+              <div class="nav__item--horizontal_line"></div>
+            </div>
+          </a>
+          <a href="#" class="nav__link nav__technology">
+            <div class="nav__item">
+              <span class="nav__item--number">03</span> Technology
+              <div
+                class="nav__item--horizontal_line nav__item--horizontal_line--clicked"
+              ></div>
+            </div>
+          </a>
+        </nav>
+      </header>
+
+      <section class="technology">
+        <div class="technology__header">
+          <span class="technology__header--number">03</span>
+          SPACE LAUNCH 101
+        </div>
+        <div class="technology__description">
+          <div class="technology__description--numbers">
+            <span class="number one number-clicked">1</span>
+            <span class="number two">2</span>
+            <span class="number three">3</span>
+          </div>
+          <div class="description__body">
+            <h3 class="description__body--heading">THE TERMINOLOGY…</h3>
+            <h2 class="description__body--name">LAUNCH VEHICLE</h2>
+            <p class="description__body--details">
+              A launch vehicle or carrier rocket is a rocket-propelled vehicle
+              used to carry a payload from Earth's surface to space, usually to
+              Earth orbit or beyond. Our WEB-X carrier rocket is the most
+              powerful in operation. Standing 150 metres tall, it's quite an
+              awe-inspiring sight on the launch pad!
+            </p>
+          </div>
+          <img
+            class="technology__image"
+            src="..\static\assets\technology\image-launch-vehicle-portrait-2.jpg"
+          />
+        </div>
+      </section>
+    </div>
+    <script src="..\static\scripts\header.js"></script>
+    <script src="..\static\scripts\technology.js"></script>
+  </body>
+</html>
