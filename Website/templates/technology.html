@@ -21,12 +21,12 @@
       sizes="32x32"
       href="..\static\assets\shared\logo.svg"
     />
-    <link rel="stylesheet" href="..\static\styles\crew.css" />
-    <title>CREW</title>
+    <link rel="stylesheet" href="..\static\styles\technology.css" />
+    <title>Technology</title>
   </head>
 
   <body>
-    <div class="container-crew">
+    <div class="container-technology">
       <header class="header">
         <img src="..\static\assets\shared\logo.svg" />
         <div class="horizontal_line"></div>
@@ -61,47 +61,36 @@
         </nav>
       </header>
 
-      <section class="crew">
-        <div class="crew__description">
-          <div class="crew__description--header">
-            <span class="crew__description--header--number">02 </span>
-            Meet your crew
-          </div>
-          <h3 class="crew__description--job">Commander</h3>
-          <h2 class="crew__description--name">Douglas Hurley</h2>
-          <p class="crew__description--details">
-            Douglas Gerald Hurley is an American engineer, former Marine Corps
-            pilot and former NASA astronaut. He launched into space for the
-            third time as commander of Crew Dragon Demo-2.
-          </p>
-          <div class="crew__description--dot">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="180"
-              height="15"
-              viewBox="0 0 165 15"
-              fill="none"
-            >
-              <circle
-                class="circle circle--0 circle--clicked"
-                cx="7.5"
-                cy="7.5"
-                r="7.5"
-              />
-              <circle class="circle circle--1" cx="46.5" cy="7.5" r="7.5" />
-              <circle class="circle circle--2" cx="85.5" cy="7.5" r="7.5" />
-              <circle class="circle circle--3" cx="124.5" cy="7.5" r="7.5" />
-              <circle class="circle circle--4" cx="163.5" cy="7.5" r="7.5" />
-            </svg>
-          </div>
+      <section class="technology">
+        <div class="technology__header">
+          <span class="technology__header--number">03</span>
+          SPACE LAUNCH 101
         </div>
-        <img
-          class="crew__image"
-          src="..\static\assets\crew\image-douglas-hurley-2.png"
-        />
+        <div class="technology__description">
+          <div class="technology__description--numbers">
+            <span class="number one number-clicked">1</span>
+            <span class="number two">2</span>
+            <span class="number three">3</span>
+          </div>
+          <div class="description__body">
+            <h3 class="description__body--heading">THE TERMINOLOGY…</h3>
+            <h2 class="description__body--name">LAUNCH VEHICLE</h2>
+            <p class="description__body--details">
+              A launch vehicle or carrier rocket is a rocket-propelled vehicle
+              used to carry a payload from Earth's surface to space, usually to
+              Earth orbit or beyond. Our WEB-X carrier rocket is the most
+              powerful in operation. Standing 150 metres tall, it's quite an
+              awe-inspiring sight on the launch pad!
+            </p>
+          </div>
+          <img
+            class="technology__image"
+            src="..\static\assets\technology\image-launch-vehicle-portrait-2.jpg"
+          />
+        </div>
       </section>
     </div>
     <script src="..\static\scripts\header.js"></script>
-    <script src="..\static\scripts\crew.js"></script>
+    <script src="..\static\scripts\technology.js"></script>
   </body>
 </html>
