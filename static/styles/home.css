@@ -1,38 +1,3 @@
-:root {
-  --color-white: white;
-  --color-gray: gray;
-  --color-black: black;
-  --color-body: #d0d6f9;
-  --color-horizontal-line: #383b4b;
-  /* fonts */
-  --letter-spacing: 0.3rem;
-  /* families */
-  --family-Barlow: "Barlow", sans-serif;
-  --family-Barlow-Condensed: "Barlow Condensed", sans-serif;
-  --family-Cormorant: "Cormorant Garamond", serif;
-}
-
-/* CSS Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-  display: inline-block;
-  text-decoration: none;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
-  -webkit-text-size-adjust: 100%;
-}
-
 /*START HEADER*/
 .header {
   display: flex;
@@ -82,8 +47,48 @@ html {
 .header .nav .nav__item {
   margin-bottom: 2.5rem;
 }
+.header .box-bar,
+.header .close-bar {
+  position: absolute;
+  right: 2rem;
+}
 
 /*END HEADER*/
+:root {
+  --color-white: white;
+  --color-gray: gray;
+  --color-black: black;
+  --color-body: #d0d6f9;
+  --color-horizontal-line: #383b4b;
+  /* fonts */
+  --letter-spacing: 0.3rem;
+  /* families */
+  --family-Barlow: "Barlow", sans-serif;
+  --family-Barlow-Condensed: "Barlow Condensed", sans-serif;
+  --family-Cormorant: "Cormorant Garamond", serif;
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   background: url("../assets/home/background-home-desktop--.jpg");
   background-repeat: no-repeat;
@@ -158,4 +163,97 @@ body {
   transition: 1.5s;
 }
 
-/*END BODY*//*# sourceMappingURL=home.css.map */
+/*END BODY*/
+/* ============================================================================== */
+/*======================= Responsive For Mobile & Tablet ======================= */
+/* ============================================================================== */
+@media (min-width: 800px) {
+  .box-bar,
+  .close-bar {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    background: url("../assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--color-black);
+    background-position: center 0;
+    color: var(--color-white);
+    font-family: var(--family-Barlow-Condensed);
+  }
+  .container-home {
+    max-width: 375px;
+    padding: 1rem;
+  }
+  .header {
+    margin: 0;
+  }
+  .box-bar {
+    display: block;
+  }
+  .close-bar {
+    display: none;
+  }
+  .horizontal_line {
+    display: none;
+  }
+  .nav__item--horizontal_line {
+    margin-top: 0;
+  }
+  .header .nav {
+    flex-direction: column;
+    justify-content: left;
+    gap: 2rem;
+    width: 100%;
+    height: 755px;
+    margin: 31rem 0 0 22.6rem;
+    padding: 12rem 0 12rem 0;
+    position: absolute;
+    display: none;
+  }
+  .nav__item {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .description {
+    margin: 4rem 0 0 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .description .description__left {
+    justify-content: center;
+  }
+  .description .description__left {
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .description .description__left--uppercase {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .description .description__left--title {
+    font-size: 5rem;
+  }
+  .description .description__left--details {
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    max-width: 20rem;
+  }
+  .description .description__explore {
+    font-size: 1.25rem;
+    padding: 5rem 2rem;
+  }
+  .description .description__explore--main {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  .description .description__explore--main:hover {
+    padding: 3rem;
+    margin: 0;
+  }
+}/*# sourceMappingURL=home.css.map */

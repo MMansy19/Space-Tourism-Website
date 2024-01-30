@@ -28,3 +28,51 @@ navigators.forEach((navItem) => {
     underline.classList.remove('nav__item--horizontal_line--mouseover');
   });
 });
+// ======================================================================================================>
+//  <================================== HAMBURGER CLICK ================================>
+// ======================================================================================================>
+const hamburger = document.querySelector('.box-bar');
+const closeBar = document.querySelector('.close-bar');
+const nav = document.querySelector('.nav');
+const home = document.querySelector('.nav__home');
+
+hamburger.addEventListener('click', () => {
+  closeBar.style.display = 'block';
+  hamburger.style.display = 'none';
+  nav.style.display = 'flex';
+
+  // Adding a delay to trigger the transition effect
+  setTimeout(() => {
+    nav.style.transition = 'transform 1s ease';
+    nav.style.transform = 'translateX(-110%)';
+    closeBar.style.transition = 'opacity 1s ease';
+    closeBar.style.opacity = 1;
+  }, 0);
+});
+
+closeBar.addEventListener('click', () => {
+  nav.style.transition = 'transform 1s ease';
+  nav.style.transform = 'translateX(110%)';
+  closeBar.style.transition = 'opacity 1s ease';
+  closeBar.style.opacity = 0;
+
+  // Adding a delay to ensure the transition completes before hiding elements
+  setTimeout(() => {
+    nav.style.display = 'none';
+    closeBar.style.display = 'none';
+    hamburger.style.display = 'block';
+  }, 1000); // 1000 milliseconds = 1 second, adjust as needed
+});
+home.addEventListener('click', () => {
+  nav.style.transition = 'transform 1s ease';
+  nav.style.transform = 'translateX(110%)';
+  closeBar.style.transition = 'opacity 1s ease';
+  closeBar.style.opacity = 0;
+
+  // Adding a delay to ensure the transition completes before hiding elements
+  setTimeout(() => {
+    nav.style.display = 'none';
+    closeBar.style.display = 'none';
+    hamburger.style.display = 'block';
+  }, 1000); // 1000 milliseconds = 1 second, adjust as needed
+});

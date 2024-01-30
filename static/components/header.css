@@ -47,5 +47,10 @@
 .header .nav .nav__item {
   margin-bottom: 2.5rem;
 }
+.header .box-bar,
+.header .close-bar {
+  position: absolute;
+  right: 2rem;
+}
 
 /*END HEADER*//*# sourceMappingURL=header.css.map */
