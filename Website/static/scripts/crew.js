@@ -8,6 +8,7 @@ const job = document.querySelector('.crew__description--job');
 const details = document.querySelector('.crew__description--details');
 const image = document.querySelector('.crew__image');
 const circles = document.querySelectorAll('.circle');
+
 const changeCrew = (index) => {
   if (index === 0) {
     name.innerText = 'Douglas Hurley';
@@ -36,6 +37,7 @@ const changeCrew = (index) => {
     image.src = '../static/assets/crew/image-douglas-hurley.webp';
   }
 };
+
 circles.forEach((circle, index) => {
   circle.addEventListener('click', () => {
     circles.forEach((anotherCircle) => {

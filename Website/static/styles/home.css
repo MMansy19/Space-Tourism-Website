@@ -3,6 +3,7 @@
   --color-gray: gray;
   --color-black: black;
   --color-body: #d0d6f9;
+  --color-horizontal-line: #383b4b;
   /* fonts */
   --letter-spacing: 0.3rem;
   /* families */
@@ -37,7 +38,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3rem;
+  margin: 0 0 0 3rem;
   font-size: 1rem;
   text-transform: uppercase;
 }

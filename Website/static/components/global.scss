@@ -3,6 +3,7 @@
   --color-gray: gray;
   --color-black: black;
   --color-body: #d0d6f9;
+  --color-horizontal-line: #383b4b;
 
   /* fonts */
   --letter-spacing: 0.3rem;
@@ -11,6 +12,7 @@
   --family-Barlow-Condensed: "Barlow Condensed", sans-serif;
   --family-Cormorant: "Cormorant Garamond", serif;
 }
+
 /* CSS Reset */
 *,
 *::before,
@@ -25,6 +27,7 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;

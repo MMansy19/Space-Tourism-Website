@@ -7,7 +7,7 @@ const navigators = document.querySelectorAll('.nav__item');
 // const underline = document.querySelector('.nav__item--horizontal_line');
 navigators.forEach((navItem) => {
   // mouseover
-  const underline = navItem.childNodes[3];
+  const underline = navItem.querySelector('.nav__item--horizontal_line');
   underline.style.width = `${navItem.offsetWidth}px`;
   navItem.addEventListener('mouseover', () => {
     underline.classList.add('nav__item--horizontal_line--mouseover');
