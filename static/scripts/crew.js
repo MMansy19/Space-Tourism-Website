@@ -32,7 +32,7 @@ const changeCrew = (index) => {
     image.src = '../static/assets/crew/mansy2-removebg.png';
   } else if (index === 4) {
     name.innerText = 'James Turner';
-    job.innerText = '';
+    job.innerText = 'Doctor';
     details.innerText = 'Dr. James Turner, a trailblazing male physician in our space tourism crew, specializes in aerospace medicine, safeguarding crew health on interstellar journeys with his pioneering expertise and commitment.';
     image.src = '../static/assets/crew/doctor.png';
   }
