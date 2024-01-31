@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable max-len */
 /* eslint-disable linebreak-style */
 // =====================================================================================================>
@@ -7,11 +8,22 @@ const image = document.querySelector('.technology__image');
 const technologyName = document.querySelector('.description__body--name');
 const details = document.querySelector('.description__body--details');
 const numbers = document.querySelectorAll('.number');
+// const hamburger = document.querySelector('.box-bar');
+// let matches = 1;
+// if (0) {
+//   matches = 0;
+// } else {
+//   matches = 1;
+// }
 
 const changeTechnology = (numberClicked) => {
   if (numberClicked.innerText === '1') {
     technologyName.innerText = 'Launch vehicle';
     details.innerText = "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!";
+    // if (matches) {
+    image.src = '../static/assets/technology/image-launch-vehicle-landscape.jpg';
+    // }
+    // else
     image.src = '../static/assets/technology/image-launch-vehicle-portrait.jpg';
   } else if (numberClicked.innerText === '2') {
     technologyName.innerText = 'Spaceport';
@@ -23,6 +35,9 @@ const changeTechnology = (numberClicked) => {
     image.src = '../static/assets/technology/image-space-capsule-portrait.jpg';
   }
 };
+
+// ===================CHECK FOR RESPONSIVE DESIGN (MOBILE IMAGE)===================================
+
 numbers.forEach((number) => {
   number.addEventListener('click', () => {
     numbers.forEach((anotherNumber) => {
