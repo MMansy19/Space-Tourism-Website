@@ -11,16 +11,23 @@ The goal is to meticulously replicate the provided design, showcasing your maste
 ## [Challenge Link](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
 
 ## Screenshots
-### Desktop
-![Design preview for the Space tourism website coding challenge](./preview.jpg)
+### 1.Desktop
 ![Design preview for the Space tourism website coding challenge](static/assets/screanshots/1.png)
 ![Design preview for the Space tourism website coding challenge](static/assets/screanshots/2.png)
 ![Design preview for the Space tourism website coding challenge](static/assets/screanshots/3.png)
-### Mobile
 ![Design preview for the Space tourism website coding challenge](static/assets/screanshots/4.png)
-![Design preview for the Space tourism website coding challenge](static/assets/screanshots/11.png)
-![Design preview for the Space tourism website coding challenge](static/assets/screanshots/12.png)
-![Design preview for the Space tourism website coding challenge](static/assets/screanshots/13.png)
+### 2.Mobile
+<p align="center">
+  <img src="static/assets/screanshots/11.png" alt="Image 1">
+</p>
+
+<p align="center">
+  <img src="static/assets/screanshots/12.png" alt="Image 2">
+</p>
+
+<p align="center">
+  <img src="static/assets/screanshots/13.png" alt="Image 3">
+</p>
 
 ### Skills Demonstrated:
 
