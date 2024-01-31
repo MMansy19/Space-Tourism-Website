@@ -17,14 +17,14 @@
   .nav {
     display: flex;
     justify-content: left;
-    max-width: 830px;
+    max-width: 900px;
     font-weight: 300;
     align-items: center;
     letter-spacing: 0.3rem;
-    padding: 2.5rem 8rem 0 5rem;
+    padding: 2.5rem 5rem 0 5rem;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40px);
-    gap: 3rem;
+    gap: 2rem;
 
     .nav__item--number {
       font-weight: 700;
@@ -48,6 +48,9 @@
 
     .nav__item {
       margin-bottom: 2.5rem;
+    }
+    .nav__me {
+      color: #4da1ff;
     }
   }
   .box-bar,
