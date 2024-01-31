@@ -27,14 +27,14 @@ const changeCrew = (index) => {
     image.src = '../static/assets/crew/image-victor-glover.webp';
   } else if (index === 3) {
     name.innerText = 'Mahmoud Mansy';
-    job.innerText = 'Full Stack Developer';
-    details.innerText = 'Experienced Full Stack Developer in ReactJS, JavaScript. Junior software engineer proficient in Python, Flask, PostgreSQL. Results-driven, strategic thinker, ready to contribute innovatively to projects.';
+    job.innerText = 'Flight Engineer';
+    details.innerText = 'Mahmoud Mansy is an Egyptian engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded young-man to fly to the ISS, and the first Egyptian in space.';
     image.src = '../static/assets/crew/mansy2-removebg.png';
   } else if (index === 4) {
-    name.innerText = 'Anousheh Ansari';
-    job.innerText = 'Flight Engineer';
-    details.innerText = 'Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.';
-    image.src = '../static/assets/crew/image-douglas-hurley.webp';
+    name.innerText = 'James Turner';
+    job.innerText = '';
+    details.innerText = 'Dr. James Turner, a trailblazing male physician in our space tourism crew, specializes in aerospace medicine, safeguarding crew health on interstellar journeys with his pioneering expertise and commitment.';
+    image.src = '../static/assets/crew/doctor.png';
   }
 };
 
