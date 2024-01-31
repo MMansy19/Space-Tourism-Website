@@ -6,6 +6,8 @@ Welcome to "Galactic Getaway Explorer" – a multi-page space tourism website de
 
 The goal is to meticulously replicate the provided design, showcasing your mastery in HTML5, CSS3, Sass, JavaScript, and responsive web design for mobile devices. Additionally, ensure code quality and consistency using ESLint for linting.
 
+![preview](preview.jpg)
+
 ## [Live Link](https://main--mansy-space-tourism.netlify.app/)
 
 ## [Challenge Link](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
