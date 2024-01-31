@@ -9,14 +9,14 @@
 }
 @media (max-width: 800px) {
   body {
-    background: url("../assets/destination/background-destination-mobile.jpg");
+    background: url("../assets/crew/background-crew-mobile.jpg");
     background-repeat: no-repeat;
     background-color: var(--color-black);
     background-position: center 0;
     color: var(--color-white);
     font-family: var(--family-Barlow-Condensed);
   }
-  .container-destination {
+  .container-crew {
     max-width: 375px;
     padding: 1rem;
   }
@@ -31,9 +31,7 @@
     display: none;
     z-index: 1;
   }
-  .horizontal_line {
-    display: none;
-  }
+
   .nav__item--horizontal_line {
     margin-top: 0;
   }
@@ -54,67 +52,58 @@
     padding: 0;
   }
 
-  .destination {
-    margin: 2rem 0 0 0;
-    /* justify-content: center; */
-  }
-  .destination__body {
-    margin: 2rem 0 0 0;
+  .crew {
+    margin: 4rem 0 0 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
   }
-  .destination .destination__header {
-    font-size: 1rem;
-    position: absolute;
-    z-index: -1;
-    letter-spacing: var(--letter-spacing);
-  }
-  .destination__body .destination__image {
-    width: 12rem;
-  }
-  .destination__description {
+  .crew__description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    order: 1;
+    row-gap: 1rem;
   }
-  .destination__description--header .nav {
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .destination__description--header .nav .nav__item--horizontal_line {
+  .crew .crew__description .crew__description--header {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 5.5rem;
     z-index: -1;
   }
-  .destination .destination__description .destination__description--name {
+  .crew .crew__description .crew__description--job {
+    font-size: 1.2rem;
     margin-bottom: 0;
-    font-size: 4rem;
+    z-index: -1;
   }
-  .destination .destination__description .destination__description--details {
-    font-size: 0.8rem;
+  .crew .crew__description .crew__description--name {
+    margin-bottom: 0;
+    font-size: 1.5rem;
     text-align: center;
-    max-width: 19rem;
+  }
+  .crew .crew__description .crew__description--details {
+    font-size: 0.9rem;
+    max-width: 18rem;
+    line-height: 1.3;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  .crew .crew__description .crew__description--dot {
+    margin-top: 2rem;
+    order: -1;
   }
 
-  .horizontal_line-2 {
-    height: 0.0625rem;
-    border-left: 18rem solid var(--color-horizontal-line);
-    z-index: 1;
-    margin: 1rem 0 1rem 0;
+  .crew .crew__image {
+    max-height: 20rem;
   }
-  .travel {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    font-size: 0.9rem;
-  }
-  .travel__time,
-  .travel__distance {
-    color: var(--color-white);
-    font-family: var(--family-Barlow);
-    font-size: 1.5rem;
+  .header .horizontal_line {
+    z-index: -1;
+    position: absolute;
+    top: 28rem;
+    border-left: 20rem solid var(--color-white);
+    width: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

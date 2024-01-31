@@ -38,7 +38,7 @@ const home = document.querySelector('.nav__home');
 const destination = document.querySelector('.nav__destination');
 const crew = document.querySelector('.nav__crew');
 const technology = document.querySelector('.nav__technology');
-const mediaQuery = window.matchMedia('(max-width: 800)');
+const mediaQuery = window.matchMedia('(max-width: 800px)');
 
 hamburger.addEventListener('click', () => {
   closeBar.style.display = 'block';

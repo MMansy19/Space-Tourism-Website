@@ -56,14 +56,14 @@
 
   .destination {
     margin: 2rem 0 0 0;
-    /* justify-content: center; */
+    justify-content: center;
   }
   .destination__body {
-    margin: 2rem 0 0 0;
+    margin: 3rem auto 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
   }
   .destination .destination__header {
     font-size: 1rem;
@@ -72,7 +72,7 @@
     letter-spacing: var(--letter-spacing);
   }
   .destination__body .destination__image {
-    width: 12rem;
+    width: 15rem;
   }
   .destination__description {
     display: flex;
@@ -95,7 +95,7 @@
   .destination .destination__description .destination__description--details {
     font-size: 0.8rem;
     text-align: center;
-    max-width: 19rem;
+    max-width: 18rem;
   }
 
   .horizontal_line-2 {
