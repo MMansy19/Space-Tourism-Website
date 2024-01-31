@@ -1,5 +1,4 @@
 # Galactic Getaway Explorer - Space Tourism Website
-
 ## Project Description:
 
 Welcome to "Galactic Getaway Explorer" – a multi-page space tourism website designed to challenge and enhance your frontend development skills. This project is part of the Frontend Mentor challenges, providing an opportunity to showcase your proficiency in building responsive and visually appealing web interfaces.
@@ -9,6 +8,9 @@ The goal is to meticulously replicate the provided design, showcasing your maste
 ## [Live Link](https://main--mansy-space-tourism.netlify.app/)
 
 ## [Challenge Link](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
+
+## Preview
+![preview](preview.jpg)
 
 ## Screenshots
 ### 1.Desktop
